@@ -1,20 +1,25 @@
+#include <iostream>
+using namespace std;
+
 int main()
 
 {
-    int a, b;
+    int a, b, sum, div, sub, mult;
 
     a = 100;
     b = 200;
 
-    int sum, div, mult, sub;
-
     sum = a + b;
     sub = a - b;
 
-    div = a / 200;
-    mult = a * 200;
+    div = 100 % 13;
 
-    int rest;
-    rest = a % b; // a mod b
-    // eaual priority
+    cout << "Sum: " << sum << endl;
+    cout << "Sub: " << sub << endl;
+    cout << "Div: " << div << endl;
+
+    // equal priority
+    int idk = (-20 + (4 * 8)) / 2;
+
+    cout << "Res: " << idk << endl;
 }

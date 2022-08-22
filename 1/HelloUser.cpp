@@ -3,16 +3,17 @@
 int main()
 {
     using namespace std;
+
     string name;
     int age;
 
-    cout << "Hello, what is your name&" << '\n';
+    cout << "What is your name?" << '\n';
+
     cin >> name;
 
-    cout << "What is your age " << name << '\n';
+    cout << "Hello " << name << ". How old are you?" << '\n';
+
     cin >> age;
 
-    cout << "I thougth you are " << age + 1 << "years old, you look younger!" << '\n';
-
-    return 0;
+    cout << "I thought you are " << age + 1 << " years old, you look younger!" << '\n';
 }
